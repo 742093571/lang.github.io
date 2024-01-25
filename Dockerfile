@@ -11,4 +11,4 @@ LABEL "maintainer"="742093571 <742093571@qq.com>"
 
 RUN apt-get update && apt-get install -y git jq
 
-ENTRYPOINT ["deploy.sh"]
+ENTRYPOINT ["/deploy.sh"]
