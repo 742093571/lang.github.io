@@ -1,6 +1,7 @@
 module.exports = {
     title: '红歌',
     description: '红歌的博客网站',
+    base: '/lang.github.io',
     locales: {
         '/': {
           lang: 'zh-CN'
